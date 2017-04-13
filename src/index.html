@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Homepage</title>
+  <title>I like Turtles!</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<h1>This is my first page fully built by myself</h1>
-	<p>Let's keep this ball rolling! You have time... The same 24 hours that everyone else does. How are you going to use it? What is stopping you?</p>
+	<main>
+    	<h1>Turtles</h1>
+
+    	<form name="turtles">
+     	 <div class="textbox">
+       		<input
+          	type="text"
+          	required
+          	name="turtle-name"/>
+        	<span class="highlight"></span>
+        	<span class="bar"></span>
+        	<label>Turtle Name</label>
+      	</div>
+
+    	<div class="textbox">
+      	<input
+        	type="text"
+        	required
+        	name="turtle-bale"/>
+      	<span class="highlight"></span>
+      	<span class="bar"></span>
+      	<label>Turtle Bale</label>
+    	</div>
+
+
+    	<input type="number" name="lion-age">
+    	<select name="select">
+      	<option value="female" selected>female</option>
+      	<option value="male">male</option>
+    	</select>
+    	<button>submit</button>
+    	</form>
+
+    	<div class="content">
+      	<ul class="Turtle-list"></ul>
+    	</div>
+  	</main>
+
+<script src="app.js"></script>
+
+
   <!--<div class="app"></div>
   <script src="js/bundle.js"></script>-->
 </body>
