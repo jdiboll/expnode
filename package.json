@@ -32,7 +32,9 @@
     "watchify": "^3.7.0"
   },
   "dependencies": {
+    "body-parser": "^1.17.1",
     "express": "^4.15.2",
+    "lodash": "^4.17.4",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
   }
