@@ -11,7 +11,7 @@ var _ = require('lodash');
 // with in client as a static resource
 // also, it will server the index.html on the
 // root of that directory on a GET to '/'
-app.use(express.static('client'));
+app.use(express.static('src'));
 
 // body parser makes it possible to post JSON to the server
 // we can accss data we post on as req.body
