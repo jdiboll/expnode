@@ -2,11 +2,12 @@
 
 var express = require('express');
 var bodyParser = require('body-parser');
+var path = require('path');
 var app = express();
 var _ = require('lodash');
 
 
-app.use(express.static('src'));
+app.use(express.static('/src'));
 
 
 app.use(bodyParser.urlencoded({extended: true}));
